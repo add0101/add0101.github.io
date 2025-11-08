@@ -1,0 +1,154 @@
+ * {
+            padding:0px;
+            margin:0px
+        }
+
+        body {
+
+            background-color: rgb(164, 229, 255);
+            font-size: 18px;
+            
+        }
+        h1 {
+            margin-top: 30px;
+            /* border: 1px solid black; */
+            font-family: 'Courier New', Courier, monospace;
+            width: 99%;         
+            text-align: center;
+            background-color: rgba(21, 95, 255, 0.89);
+            color: yellow;
+            font-style: italic;
+            margin-bottom: 30px;
+
+        }
+        .hr-1 {
+            width: 99%;
+            margin-bottom: 30px;;
+        }
+
+        .external-div {
+            width:99%;
+            /* border: 1px solid black; */
+            height: 280px;
+            display:flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            
+        }
+
+        .internal-div {
+            width:49%;
+            /* border: 1px solid black; */
+            height: 252px;
+            text-align: center;
+           
+
+        }
+        
+        img {       
+            padding: 3px;
+            width:350px;
+            height:250px;
+           
+         
+        }
+
+        .hr-2 {
+            width:99%;
+            margin-top: 30px;
+        }
+
+        h2 {
+            text-align: center;
+            letter-spacing: 3px;
+            margin: 20px 0px;
+            
+        }
+
+        /* COLORIZATION OF TEXT */
+        h2, p {
+            color:rgb(179, 32, 199);
+            
+        }
+
+        p>a {
+            color:rgb(179, 32, 199);
+            text-decoration:none;
+        }
+
+   
+        p>span.no-color {
+            color: gray;
+            text-decoration: none;
+        }
+
+        /* END OF TEXT COLORIZATION */
+
+
+        p {
+            margin: 20px 0px;
+            /* margin-top: 20px;
+            margin-bottom: 20px; */
+
+        }
+
+        .indent {
+            /* border: 1px solid black; */
+            /* text-indent: 30px; */
+            margin-left: 30px;
+            margin-right: 20px;
+
+     
+            
+        }
+
+        .like-a-poem {
+            /* border: 1px solid black; */
+            margin-left: 30px;
+            /* margin-right: 20px; */
+            font-size: 22px;
+            /* width: 20%; */
+            
+            
+            
+        }
+
+
+        span {
+            text-decoration: underline;
+            font-weight: bold;
+        }
+
+        .underline-dotted {
+            text-decoration-line: underline;
+            text-decoration-style:dotted;
+        }
+
+        
+        .external-div-footer {
+            /* border: 2px solid black; */
+            width: 99%;
+
+        }
+
+        .internal-div-footer  {
+            /* border: 1px solid black; */
+          
+            width: 30%;
+            margin: auto;
+            display: block;
+            text-align: center;
+            font-size: 17px;
+            /* font-style: italic; */
+        }
+
+        .internal-div-footer img {
+            height: 120px;
+            width: 90px;
+            
+        }
+
+        pre {
+            color:rgb(179, 32, 199);
+        }
